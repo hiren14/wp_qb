@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Key Events Example</title>
+    <style>
+        body {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Key Events Example</h1>
+    <p>Press any key to see its key code and check if it's a vowel.</p>
+    <script>
+        document.addEventListener("keydown", function(event) {
+          console.log("Key code: " + event.key);
+          if (event.key === "a" || event.key === "e" || event.key === "i" || event.key === "o" || event.key === "u") {
+            console.log("Vowel is pressed");
+          }
+          document.body.style.backgroundColor = "white";
+        });
+
+        document.addEventListener("keyup", function(event) {
+          document.body.style.backgroundColor = "red";
+        });
+    </script>
+</body>
+</html>
