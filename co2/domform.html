@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form </title>
+</head>
+<body>
+    <form id="myForm">
+    <label> user name </label>
+    <input type="text" id="uname">
+    <label>password</label>
+    <input type="password" id="pass">
+   
+    <input type="submit" onclick="login()">
+</form>
+<p id="f"></p>
+    <script>
+        var x = document.getElementById('myForm').elements.length;
+        document.getElementById('f').innerHTML = 'the total number of elems as ' + x;
+    </script>
+</body>
+</html>
