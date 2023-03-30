@@ -2,12 +2,11 @@
 function even()
 {
 
-var i,j,k;
-i= document.getElementById('st').value;
-j= document.getElementById('end').value;
-console.log(i)
-console.log(j)
-for(i=i;i<=j;i++)
+var i,n;
+// i= document.getElementById('st').value;
+n= document.getElementById('end').value;
+console.log(n)
+for(i=1;i<=n;i++)
 {
     if(i%2==1)
     {
