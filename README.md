@@ -49,7 +49,7 @@
 <br>
 <br>
 
-<p align="left"><a href="https://github.com/hiren14/wp_qb/blob/main/co2/evenodd">
+<p align="left"><a href="https://github.com/hiren14/wp_qb/blob/main/co2/even">
 <img width="800" src="https://hiren14.github.io/wp_qb/asset/evenodd.png">
 </a>
 </p>
